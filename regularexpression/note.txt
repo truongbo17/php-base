@@ -1,0 +1,7 @@
+Regular Expression(Regex)
+
+Được dùng để xử lý chuỗi nâng cao thông qua biểu thức riêng
+-So khớp
+-Cắt chuỗi
+-Thay thế...
+
