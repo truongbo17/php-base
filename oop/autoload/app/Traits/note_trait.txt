@@ -1,0 +1,5 @@
+Vì PHP chỉ hỗ trợ single inheritance(đơn kế thừa) nên từ PHP 5.4 trở đi PHP hỗ trợ Trait
+-Một Trait tượng tự như một Class nhưng chỉ nhằm mục đích nhóm chức năng lại và Trait không thể khởi tạo giống Class
+và Trait sinh ra để bổ sung cho kế thừa truyền thống.
+không thể kế thừa nhiều class nhưng có thể sử dụng nhiều trait
+tái sử dụng

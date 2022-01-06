@@ -1,0 +1,11 @@
+{
+    "name": "truongbo/autoload",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Truongbo\\Autoload\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}
