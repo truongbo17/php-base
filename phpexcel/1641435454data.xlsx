@@ -1,0 +1,16 @@
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\php\phpexcel\PHPExcel\Cell\DefaultValueBinder.php</b> on line <b>82</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\php\phpexcel\PHPExcel\Cell\DefaultValueBinder.php</b> on line <b>82</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\php\phpexcel\PHPExcel\Cell\DefaultValueBinder.php</b> on line <b>82</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\php\phpexcel\PHPExcel\Cell\DefaultValueBinder.php</b> on line <b>82</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\php\phpexcel\PHPExcel\Cell\DefaultValueBinder.php</b> on line <b>82</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\php\phpexcel\PHPExcel\Cell\DefaultValueBinder.php</b> on line <b>82</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\php\phpexcel\PHPExcel\Cell\DefaultValueBinder.php</b> on line <b>82</b><br />
+<br />
+<b>Fatal error</b>:  Array and string offset access syntax with curly braces is no longer supported in <b>C:\xampp\htdocs\php\phpexcel\PHPExcel\Calculation\Functions.php</b> on line <b>324</b><br />
