@@ -6,10 +6,18 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit8c120612e84df301eebc4ec464d14cfc
 {
+    public static $files = array (
+        '38d9d71184130d3bbca177e215f0a607' => __DIR__ . '/../..' . '/app/Helper/Helper.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
             'Truongbo\\Autoload\\' => 18,
+        ),
+        'P' => 
+        array (
+            'PHPMailer\\PHPMailer\\' => 20,
         ),
         'A' => 
         array (
@@ -21,6 +29,10 @@ class ComposerStaticInit8c120612e84df301eebc4ec464d14cfc
         'Truongbo\\Autoload\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
         'App\\' => 
         array (

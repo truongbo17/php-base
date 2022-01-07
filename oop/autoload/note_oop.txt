@@ -1,0 +1,39 @@
+Static trong lập trình hướng đối tượng là một thành phần tĩnh (có thể là thuộc tính hoặc phương thức) mà nó hoạt động như một biến toàn cục, dù cho nó có được xử lý ở trong bất kỳ một file nào đi nữa (trong cùng một chương trình) thì nó đều lưu lại giá trị cuối cùng mà nó được thực hiện vào trong lớp.
+
+-Để gọi phương thức thuộc tính tĩnh trong class dùng cú pháp : selft::$__var , ClassName::$__var, static::$__var
+
+-Nhược điểm của static
+'static nó hoạt động như một biến toàn cục' và cũng vì điều này mà khi sử dụng static trong chương trình thì nó sẽ chiếm nhiều tài nguyên hơn các thành phần thường.
+
+----------------------------------------------------------------------------------------------------------------------
+Final Class
+Khi một class được khai báo là final thì không lớp nào có thể kế thừa nó và nó chỉ có thể khởi tạo được thôi
+
+-Final Phương thức
+-Khi chúng ta khai báo một phương thức là final thì không có một phương thức nào có thể override(ghi đè lại được).
+
+----------------------------------------------------------------------------------------------------------------------
+Vì PHP chỉ hỗ trợ single inheritance(đơn kế thừa) nên từ PHP 5.4 trở đi PHP hỗ trợ Trait
+-Một Trait tượng tự như một Class nhưng chỉ nhằm mục đích nhóm chức năng lại và Trait không thể khởi tạo giống Class
+và Trait sinh ra để bổ sung cho kế thừa truyền thống.
+không thể kế thừa nhiều class nhưng có thể sử dụng nhiều trait
+tái sử dụng
+
+----------------------------------------------------------------------------------------------------------------------
+Interface: không phải là một lớp ,nó như một bản thiết kế cho các class có chung cách thức hoạt động.Vì không phải một lớp nên không định nghĩa thuộc tính,khởi tạo đối tượng mà chỉ được khai báo các phương thức
+(Chỉ khai báo tên hàm không có nội dung) 
+-Không khai báo được biến
+-Không có khai niệm phạm vi,tất cả đều public
+-Lớp con kế thừa từ interface phải override tất cả các phuong thức trong đó
+-Một lớp có thể kế thừa nhiều interface khác nhau bằng từ khóa implements
+
+---------------------------------------------------------------------------------------------------------------------
+Abstract Class:
+-Lớp này chứa các phương thức trừu tượng,các lớp khác khi kế thừa phải định nghĩa các phương thức đó.Một class chỉ kế thừa được 1 Abstract class.
+-Khai báo dùng từ khóa abstract trước class và phương thức,phương thức có thể abstract hoặc không
+-Có thể khai báo thuộc tính nhưng không thể để dạng abstract class
+
+---------------------------
+Abstract và Interface: 
+-Abstract được dùng trong các trường hợp các class kế thừa từ nó có cùng bản chất(thuộc một nhóm đối tượng)
+-Interface thường được dùng trong các trường hợp các class kế thừa không có cùng bản chất(nhóm đối tượng) nhưng chúng thực hiện hành động giống nhau

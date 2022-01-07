@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Truongbo\\Autoload\\' => array($baseDir . '/src'),
+    'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
     'App\\' => array($baseDir . '/app'),
 );

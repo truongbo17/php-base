@@ -5,7 +5,12 @@
         "psr-4": {
             "Truongbo\\Autoload\\": "src/",
             "App\\": "app/"
-        }
+        },
+        "files" : [
+            "app/Helper/Helper.php"
+        ]
     },
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    }
 }
